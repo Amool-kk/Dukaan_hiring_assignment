@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+            overflow: hidden;
+            /* Prevent body from scrolling */
+            display: flex;
+        }
+
+        #leftDiv {
+            height: 100vh;
+            /* Full height of the viewport */
+            width: 200px;
+            /* Adjust the width as needed */
+            background-color: lightblue;
+        }
+
+        #rightDiv {
+            position: fixed;
+            top: 0;
+            left: 200px;
+            /* Set to the width of the left div */
+            bottom: 0;
+            right: 0;
+            overflow-y: auto;
+            /* Enable vertical scrolling if content overflows */
+            padding: 20px;
+            /* Add padding as needed */
+        }
+    </style>
+</head>
+
+<body>
+    <div id="leftDiv">
+        <!-- Content for the left div goes here -->
+        <p>Left div content</p>
+    </div>
+    <div id="rightDiv">
+        <!-- Content for the right div goes here -->
+        <p style="width: 300px; border: 1px red solid;">lorem10000</p>
+        <!-- Add more content as needed -->
+    </div>
+</body>
+
+</html>

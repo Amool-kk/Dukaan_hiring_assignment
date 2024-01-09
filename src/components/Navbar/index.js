@@ -6,7 +6,8 @@ const Navbar = () => {
         <div className='w-full flex text-center bg-[#FFFFFF]' style={{
             padding: "12px 32px 12px 32px",
             height: "64px",
-            fontSize: "16px"
+            fontSize: "16px",
+            borderBottom: "1px #D9D9D9 solid"
         }}>
             <div className='flex gap-5 flex-1 items-center'>
                 <span>Payments</span>
